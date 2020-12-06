@@ -13,8 +13,8 @@ os.system("clear")
 os.system("figlet YUBA - SMS GONDERME ARACI")
 
 banner = """
-                             >Coder By Yuba
-|> İstediginiz telefon adresine hergun 1 defa mesaj atma hakkınız var>
+         	             >Coder By Yuba
+|> İstediginiz telefon adresine hergun 1 defa mesaj atma hakkınız vardır!
 |> Mesajınızdaki karakter sayısı sınırlıdır.
 |> Tel adresinizi Doğru girmezseniz hata vericektir.
 |> Çalıştığını kendinizde deneyebilirsiniz.
@@ -28,7 +28,7 @@ mesaj = input("Mesajınız >>> ")
 
 arlk = mesaj[0:70]
 
-print("\n| Mesajınızın Gönderilebilecek kısmı aşagıdaki gibidir.\n"+a>
+print("\n| Mesajınızın Gönderilebilecek kısmı aşagıdaki gibidir.\n"+arlk)
 
 drlm = input("\n| Mesajınız Gönderilsinmi?[y/n] >>> ")
 
