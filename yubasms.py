@@ -6,6 +6,14 @@ from os import system as s
 
 import os
 
+os.system("apt-get update")
+
+os.system("apt-get upgrade")
+
+os.system("apt-get install curl")
+           
+os.system("apt-get install python")
+           
 os.system("apt-get install figlet")
 
 os.system("clear")
@@ -18,6 +26,8 @@ banner = """
 |> Mesajınızdaki karakter sayısı sınırlıdır.
 |> Tel adresinizi Doğru girmezseniz hata vericektir.
 |> Çalıştığını kendinizde deneyebilirsiniz.
+|> tiktok= yuba.py
+|> instagram = yuba.py
 """
 
 print(banner)
